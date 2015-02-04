@@ -3,7 +3,8 @@ body {
 	background-color: #BCD2EE}
 	
 h1 {
-	font-family: algerian;
+	font-family: helvetica;
+	font-weight: bold;
 	color: black}
 	
 p { font-family: times new roman;
@@ -11,7 +12,7 @@ p { font-family: times new roman;
 
 .info{ font-family: helvetica;
 		font-weight: bold;
-		text-align: right;
+		text-align: center;
 		}
 .stuff{
 	font-style: italic;
