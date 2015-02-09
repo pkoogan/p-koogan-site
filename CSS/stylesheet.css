@@ -1,24 +1,39 @@
 body {
 	font-family: arial;
-	background-color: #BCD2EE}
+	background-color: #BCD2EE
+	}
 	
 h1 {
 	font-family: helvetica;
 	font-weight: bold;
-	color: black}
+	color: black
+	}
 	
-p { font-family: times new roman;
+p { 
+	font-family: times new roman;
 	}
 
-.info{ font-family: helvetica;
-		font-weight: bold;
-		text-align: center;
-		}
-.stuff{
+.personal-info{ 
+	font-family: helvetica;
+	font-weight: bold;
+	text-align: center;
+	}
+
+.hobbies{
 	font-style: italic;
 	font-weight: bold;
 	}
 	
+img.align-center{
+	display: block;
+	float: center;
+	margin: 0px auto;
+	}
+
+img.site-pic{
+	height: auto;
+	width: 250px
+	}
 	
 	
 		 	
