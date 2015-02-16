@@ -1,39 +1,276 @@
-body {
+html
+{
+	background-color: #BCD2EE;
+	width: 100%;
+	height: 100%;
+}
+
+body 
+{
 	font-family: arial;
-	background-color: #BCD2EE
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+/*Custom, Samsung Galaxy S4 */
+@media only screen and (min-width : 360px)
+{
+	h1
+	{
+		text-align: center;
+		font-family: helvetica;
+		font-weight: bold;
+		color: black;
 	}
-	
-h1 {
-	font-family: helvetica;
-	font-weight: bold;
-	color: black
-	}
-	
-p { 
-	font-family: times new roman;
-	}
-
-.personal-info{ 
-	font-family: helvetica;
-	font-weight: bold;
-	text-align: center;
-	}
-
-.hobbies{
-	font-style: italic;
-	font-weight: bold;
-	}
-	
-img.align-center{
-	display: block;
-	float: center;
-	margin: 0px auto;
+		
+	p
+	{ 
+		font-family: times new roman;
 	}
 
-img.site-pic{
-	height: auto;
-	width: 250px
+	.personal-info
+	{ 
+		font-family: helvetica;
+		font-weight: bold;
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 5%;
+		margin-right: 5%;	
 	}
+
+	.hobbies
+	{
+		font-style: italic;
+		font-weight: bold;
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 5%;
+		margin-right: 5%;	
+	}
+		
+	img.align-center
+	{
+		display: block;
+		float: center;
+		margin: 0px auto;
+		margin-top: 5%;
+	}
+
+	img.site-pic
+	{
+		height: auto;
+		width: 250px
+	}
+}	
+
+/* Extra Small Devices, phones */
+@media only screen and (min-width : 480px)
+{	
+	h1
+	{
+		font-family: helvetica;
+		font-weight: bold;
+		color: black
+	}
+		
+	p
+	{ 
+		font-family: times new roman;
+	}
+
+	.personal-info
+	{ 
+		font-style: algerian;
+		font-weight: bold;
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 5%;
+		margin-right: 5%;	
+	}
+
+	.hobbies
+	{
+		font-style: italic;
+		font-weight: bold;
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 5%;
+		margin-right: 5%;	
+	}
+		
+	img.align-center
+	{
+		display: block;
+		float: center;
+		margin: opx auto;
+		margin-top: 5%;
+	}
+
+	img.site-pic
+	{
+		height: auto;
+		width: 250px
+	}
+}
+
+/*Small Devices, Tablets */	 	
+@media only screen and (min-width : 768px)
+{
+	h1
+	{
+		font-family: helvetica;
+		font-weight: bold;
+		color: black
+	}
+		
+	p
+	{ 
+		font-family: times new roman;
+	}
+
+	.personal-info
+	{ 
+		font-family: helvetica;
+		font-weight: bold;
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 5%;
+		margin-right:5%;
 	
+	}
+
+	.hobbies
+	{
+		font-style: italic;
+		font-weight: bold;
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 5%;
+		margin-right: 5%
+	}
+		
+	img.align-center
+	{
+		display: block;
+		float: center;
+		margin: 0px auto;
+		margin-top: 3%;
+	}
+
+	img.site-pic
+	{
+		height: auto;
+		width: 250px
+	}
+}
+
+/*Medium Devices, Desktops */	
+@media only screen and (min-width : 992px)
+{
+	h1
+	{
+		font-family: helvetica;
+		font-weight: bold;
+		color: black
+	}
+		
+	p
+	{ 
+		font-family: times new roman;
+	}
+
+	.personal-info
+	{ 
+		font-family: helvetica;
+		font-weight: bold;
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 5%;
+		margin-right:5%;
 	
-		 	
+	}
+
+	.hobbies
+	{
+		font-style: italic;
+		font-weight: bold;
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 5%;
+		margin-right: 5%
+	}
+		
+	img.align-center
+	{
+		display: block;
+		float: center;
+		margin: 0px auto;
+		margin-top: 3%;
+	}
+
+	img.site-pic
+	{
+		height: auto;
+		width: 250px
+	}
+}
+
+/*Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+{
+	h1
+	{
+		font-family: helvetica;
+		font-weight: bold;
+		color: black
+	}
+		
+	p
+	{ 
+		font-family: times new roman;
+	}
+
+	.personal-info
+	{ 
+		font-family: helvetica;
+		font-weight: bold;
+		font-size: 1.25em;
+		text-align: center;
+		margin-top: 2%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.hobbies
+	{
+		font-style: italic;
+		font-weight: bold;
+		font-size: 1.25em;
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 5%;
+		margin-right: 7%;
+	}
+		
+	img.align-center
+	{
+		display: block;
+		float: center;
+		margin: 0px auto;
+		margin-top: 3%;
+	}
+
+	img.site-pic
+	{
+		height: auto;
+		width: 250px
+	}
+}	
