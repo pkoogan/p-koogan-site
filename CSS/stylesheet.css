@@ -1,6 +1,7 @@
 html
 {
 	background-color: #BCD2EE;
+	background-size: 100% auto;
 	width: 100%;
 	height: 100%;
 }
@@ -63,6 +64,10 @@ body
 		height: auto;
 		width: 250px
 	}
+	.map 
+	{
+		display: none;
+	}	
 }	
 
 /* Extra Small Devices, phones */
@@ -114,6 +119,10 @@ body
 	{
 		height: auto;
 		width: 250px
+	}
+	.map 
+	{
+		display: none;
 	}
 }
 
@@ -168,6 +177,10 @@ body
 		height: auto;
 		width: 250px
 	}
+	.map 
+	{
+		display: none;
+	}
 }
 
 /*Medium Devices, Desktops */	
@@ -221,6 +234,10 @@ body
 		height: auto;
 		width: 250px
 	}
+	.map 
+	{
+		display: none;
+	}
 }
 
 /*Large Devices, Wide Screens */
@@ -272,5 +289,9 @@ body
 	{
 		height: auto;
 		width: 250px
+	}
+	.map 
+	{
+		display: none;
 	}
 }	
