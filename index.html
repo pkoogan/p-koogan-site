@@ -6,6 +6,7 @@
 		<meta name="author" content="Philip Koogan"/>
 		<meta name="keywords" content="html, css, skills, about me, web page, web design, hobbies, interests"/> 
 		<meta name="description" content="This sight is so I can get familiar with building a web site for collegian and personal reasons."/>
+		<meta property="og:type" content="website"/>
 		<link href= "css/stylesheet.css" type= "text/css" rel= "stylesheet" />
 	</head>
 	<body>
@@ -30,10 +31,31 @@
 			</ul>
 			</br>
 			</br>
-			<div>
-			<iframe width= "300" height= "300"  frameborder= "0" style= "border:0" src="https://www.google.com/maps/embed/v1/place?q=university%20of%20toledo%20&key=AIzaSyDcvwI5zzSTSdFIiMZOaw7dYi1zrZKQcKw"></iframe> 
+			<div class="contact">
+				<div class="contact-right">
+					<iframe width= "300" height= "300"  frameborder= "0" style= "border:0" src="https://www.google.com/maps/embed/v1/place?q=university%20of%20toledo%20&key=AIzaSyDcvwI5zzSTSdFIiMZOaw7dYi1zrZKQcKw"></iframe> 
+				</div>
+				<div class="contact-left">
+					<div id="form-main">
+						<div id="form-div">
+							<form class="contact-form" id="contact">
+								<p class="name">
+									<input name="name" type="text" class="contact-input" placeholder="Name" id="name" />
+								</p>
+								<p class="email">
+									<input name="email" type="text" class="contact-input" id="email" placeholder="Email" />
+								</p>
+								<p class="text">
+									<textarea name="text" class="contact-input" id="comment" placeholder="Feedback"></textarea>
+								</p>
+								<div class="submit">
+									<input type="submit" value="SEND" id="button-send"/>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
 		</br>
 		</br>
 	</body>
