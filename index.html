@@ -7,10 +7,31 @@
 		<meta name="keywords" content="html, css, skills, about me, web page, web design, hobbies, interests"/> 
 		<meta name="description" content="This sight is so I can get familiar with building a web site for collegian and personal reasons."/>
 		<meta property="og:type" content="website"/>
-		<link href= "css/stylesheet.css" type= "text/css" rel= "stylesheet" />
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link href="css/stylesheet.css" type="text/css" rel="stylesheet" />
+		
 	</head>
-	<body>
-		<div class="container">
+	<body class="body-container">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">						
+					<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">home</a></li>
+						<li><a href="#about-me">About</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div id="about-me">
 			<img src="img/me-site-crop.png" alt="Philip Koogan" title="Philip Koogan pic" class="align-center site-pic"/>
 			<h1>About me</h1>
 			<p class="personal-info">
@@ -31,11 +52,7 @@
 			</ul>
 			</br>
 			</br>
-			<div class="contact">
-				<div class="contact-right">
-					<iframe width= "300" height= "300"  frameborder= "0" style= "border:0" src="https://www.google.com/maps/embed/v1/place?q=university%20of%20toledo%20&key=AIzaSyDcvwI5zzSTSdFIiMZOaw7dYi1zrZKQcKw"></iframe> 
-				</div>
-				<div class="contact-left">
+			<div class="contact-left" id="contact">
 					<div id="form-main">
 						<div id="form-div">
 							<form class="contact-form" id="contact">
