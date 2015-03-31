@@ -11,7 +11,7 @@
 		<link href="css/stylesheet.css" type="text/css" rel="stylesheet" />
 		
 	</head>
-	<body class="body-container">
+	<body  class="body-container" data-spy="scroll" data-target="#navbar">
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -55,9 +55,9 @@
 			<div class="contact-left" id="contact">
 				<div id="form-main">
 					<div id="form-div">
-						<form class="contact-form" id="contact">
+						<form  class="contact-form" id="contact">
 							<p class="name">
-								<input name="name" type="text" class="contact-input" placeholder="Name" id="name" />
+								<input name="name" type="text"  class="contact-input" placeholder="Name" id="name" data-provide="typeahead" />
 							</p>
 							<p class="email">
 								<input name="email" type="text" class="contact-input" id="email" placeholder="Email" />
@@ -72,10 +72,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="toggle_demo">
-				<button class=" btn-default demo" id="toggle" onclick="toggle('demo_div');">Button</button>
-			</div>
-			<script src="js/myFunctions.js"></script>
+			 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+			 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+			 <script src="js/functions.js"></script>
 		</br>
 		</br>
 	</body>

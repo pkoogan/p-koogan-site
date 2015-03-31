@@ -8,3 +8,10 @@ function toggle(element){
 		}
 			
 };
+
+    $('[data-spy="scroll"]').each(function () {
+    var $spy = $(this).scrollspy('refresh')
+    });
+
+	$('#navbar').scrollspy();
+	$('.typeahead').typeahead();
