@@ -14,4 +14,3 @@ function toggle(element){
     });
 
 	$('#navbar').scrollspy();
-	$('.typeahead').typeahead();
