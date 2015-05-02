@@ -22,10 +22,10 @@
 		width: 100%;
 		float
 	}
-.carousel-inner
+	.carousel-inner
 	{
-	width:50%;
-	max-height: 500px !important;
+		width:50%;
+		max-height: 500px !important;
 	}
 
 	.navbar-inverse
@@ -87,17 +87,27 @@
 
 {
 
-.tales {
-  width: 100%;
-  float: center'
-}
-.carousel-inner{
-  width:50%%;
-  max-height: 500px !important;
-)
+	.tales 
+	{
+		width: 100%;
+		float: center'
+	}
+	.carousel-inner
+	{
+		width:50%%;
+		max-height: 500px !important;
+	)
+	
 	h1
 	{
 		text-align: center;
+		font-family: 'Parisienne', cursive;
+		font-weight: bold;
+		color: black;
+	}
+	
+	h3
+	{
 		font-family: 'Parisienne', cursive;
 		font-weight: bold;
 		color: black;
@@ -216,19 +226,30 @@
 @media only screen and (min-width : 480px)
 {
 
-.tales {
-  width: 100%;
-  float: center'
-}
-.carousel-inner{
-  width:50%%;
-  max-height: 500px !important;
-)
+	.tales 
+	{
+		width: 100%;
+		float: center'
+	}
+	.carousel-inner
+	{
+		width:50%%;
+		max-height: 500px !important;
+	)
+	
 	h1
+	{
+		text-align: center;
+		font-family: 'Parisienne', cursive;
+		font-weight: bold;
+		color: black;
+	}
+	
+	h3
 	{
 		font-family: 'Parisienne', cursive;
 		font-weight: bold;
-		color: black
+		color: black;
 	}
 		
 	p
@@ -344,19 +365,30 @@
 @media only screen and (min-width : 768px)
 {
 
-.tales {
-  width: 100%;
-  float: center'
-}
-.carousel-inner{
-  width:50%%;
-  max-height: 500px !important;
-
+	.tales 
+	{
+		width: 100%;
+		float: center'
+	}
+	.carousel-inner
+	{
+		width:50%%;
+		max-height: 500px !important;
+	}
+	
 	h1
+	{
+		text-align: center;
+		font-family: 'Parisienne', cursive;
+		font-weight: bold;
+		color: black;
+	}
+	
+	h3
 	{
 		font-family: 'Parisienne', cursive;
 		font-weight: bold;
-		color: black
+		color: black;
 	}
 		
 	p
@@ -476,21 +508,32 @@
 
 {
 
-.tales {
-  width: 100%;
-  float: center'
-}
-.carousel-inner{
-  width:50%%;
-  max-height: 500px !important;
+	.tales 
+	{
+		width: 100%;
+		float: center'
+	}
+	.carousel-inner
+	{
+		width:50%%;
+		max-height: 500px !important;
 
+	}
+	
 	h1
 	{
+		text-align: center;
 		font-family: 'Parisienne', cursive;
 		font-weight: bold;
-		color: black
+		color: black;
 	}
-		
+	
+	h3	{
+		font-family: 'Parisienne', cursive;
+		font-weight: bold;
+		color: black;
+	}	
+	
 	p
 	{ 
 		font-family: times new roman;
@@ -601,19 +644,32 @@
 @media only screen and (min-width : 1200px)
 {
 
-.tales {
-  width: 100%;
-  float: center'
-}
-.carousel-inner{
-  width:50%%;
-  max-height: 500px !important;
-}
+	.tales 
+	{
+	  width: 100%;
+	  float: center'
+	}
+	
+	.carousel-inner
+	{
+		width:50%%;
+		max-height: 500px !important;
+	}
+	
 	h1
+	{
+		text-align: center;
+		font-family: 'Parisienne', cursive;
+		font-weight: bold;
+		color: black;
+		
+	}
+	
+	h3
 	{
 		font-family: 'Parisienne', cursive;
 		font-weight: bold;
-		color: black
+		color: black;
 	}
 		
 	p
