@@ -1,0 +1,727 @@
+	html
+	{
+		background-color: #BCD2EE;
+		background-size: 100% auto;
+		background-repeat: repeat;
+		width: 100%;
+		height: 100%;
+	}
+
+	body 
+	{
+		background-color: #BCD2EE;
+		font-family: arial;
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		
+	}
+	
+	.tales 
+	{
+		width: 100%;
+		float
+	}
+.carousel-inner
+	{
+	width:50%;
+	max-height: 500px !important;
+	}
+
+	.navbar-inverse
+	 {
+		background-color: #e4d2ba;
+	}
+
+	.body-container
+	{
+		margin-top: 5%;
+	}
+
+	.contact-left 
+	{
+		float: left;
+		margin-left: 20%;
+		margin-bottom: 10%;
+	}
+
+	.contact-right 
+	{
+		float: right;
+		margin-right: 10%;
+		margin-bottom: 10%;
+	}
+
+	.btn 
+	{
+		margin-top: 5%;
+	}
+	
+	.toggle_demo 
+	{
+		display: block;
+		position: relative;
+		margin: 0 auto;
+		text-align: center;
+		height: 100px;
+		width: auto;
+		background-color: #BCD2EE;
+		clear: both;
+	}
+		
+	.demo
+	{
+		background-color: #e4d2ba;
+		width: 100px;
+		height: 100px;
+	}
+	
+	.demo:hover
+	{
+		background-color: #A020F0
+	}
+		
+
+/*Custom, Samsung Galaxy S4 */
+@media only screen and (min-width : 360px)
+
+{
+
+.tales {
+  width: 100%;
+  float: center'
+}
+.carousel-inner{
+  width:50%%;
+  max-height: 500px !important;
+)
+	h1
+	{
+		text-align: center;
+		font-family: 'Parisienne', cursive;
+		font-weight: bold;
+		color: black;
+	}
+		
+	p
+	{ 
+		font-family: times new roman;
+	}
+
+	.personal-info
+	{ 
+		font-family: 'Slabo 27px', serif;
+		font-weight: bold;
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 5%;
+		margin-right: 5%;	
+	}
+
+	.hobbies
+	{
+		font-style: italic;
+		font-weight: bold;
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 5%;
+		margin-right: 5%;	
+	}
+		
+	img.align-center
+	{
+		display: block;
+		float: center;
+		margin: 0px auto;
+		margin-top: 5%;
+	}
+
+	img.site-pic
+	{
+		height: auto;
+		width: 250px
+	}
+	.map 
+	{
+	display: none;
+	}	
+
+	 #form-main
+	{
+		width:100%;
+		float:left;
+		padding-top:0px;
+	}
+	
+	#form-div 
+	{
+		background-color:#e4d2ba;
+		padding-left:15px;
+		padding-right:15px;
+		padding-top:15px;
+		padding-bottom:30px;
+		width:300px;
+		float: left;
+		position: relative;
+		margin-top:20px;
+		margin-left: -200px;
+	}
+	
+	.contact-input 
+	{
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		padding: 10px 10px 10px 10px;
+		margin-bottom: 10px;
+		width:100%;
+		box-sizing: border-box;
+		border: 2px solid #000000;
+	}
+
+	textarea 
+	{
+		width: 100%;
+		height: 100px;
+		line-height: 150%;
+		resize:vertical;
+	}
+	
+	#button-send
+	{
+		width: 100%;
+		border: solid 2px;
+		cursor:auto;
+		background-color: #BCD2EE;
+		font-size:14px;
+		padding-top:12px;
+		padding-bottom:12px
+	}
+	
+	#button-send:hover
+	{
+	background-color: #A020F0
+	}
+	
+	.contact-input:focus
+	{
+	background-color: #e4d2ba                  ;
+	font-size: 18px;
+	}
+}
+
+
+/* Extra Small Devices, phones */
+@media only screen and (min-width : 480px)
+{
+
+.tales {
+  width: 100%;
+  float: center'
+}
+.carousel-inner{
+  width:50%%;
+  max-height: 500px !important;
+)
+	h1
+	{
+		font-family: 'Parisienne', cursive;
+		font-weight: bold;
+		color: black
+	}
+		
+	p
+	{ 
+		font-family: times new roman;
+	}
+
+	.personal-info
+	{ 
+		font-family: 'Slabo 27px', serif;
+		font-weight: bold;
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 5%;
+		margin-right: 5%;	
+	}
+
+	.hobbies
+	{
+		font-style: italic;
+		font-weight: bold;
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 5%;
+		margin-right: 5%;	
+	}
+		
+	img.align-center
+	{
+		display: block;
+		float: center;
+		margin: opx auto;
+		margin-top: 5%;
+	}
+
+	img.site-pic
+	{
+		height: auto;
+		width: 250px
+	}
+	.map 
+	{
+		display: none;
+	}
+ 
+	 #form-main
+	{
+		width:100%;
+		float:left;
+		padding-top:0px;
+	}
+	
+	#form-div 
+	{
+		background-color:e4d2ba;
+		padding-left:15px;
+		padding-right:15px;
+		padding-top:15px;
+		padding-bottom:30px;
+		width:300px;
+		float: left;
+		position: relative;
+		margin-top:20px;
+		margin-left: -200px;
+	}
+	
+	.contact-input 
+	{
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		padding: 10px 10px 10px 10px;
+		margin-bottom: 10px;
+		width:100%;
+		box-sizing: border-box;
+		border: 2px solid #000000;
+	}
+
+	textarea 
+	{
+		width: 100%;
+		height: 100px;
+		line-height: 150%;
+		resize:vertical;
+	}
+	
+	#button-send
+	{
+		width: 100%;
+		border: solid 2px;
+		cursor:auto;
+		background-color: #BCD2EE;
+		font-size:14px;
+		padding-top:12px;
+		padding-bottom:12px
+	}
+	
+	#button-send:hover
+	{
+	background-color: #A020F0
+	}
+	
+	.contact-input:focus
+	{
+	background-color: #e4d2ba                  ;
+	font-size: 18px;
+	}
+}
+
+
+/*Small Devices, Tablets */	 	
+@media only screen and (min-width : 768px)
+{
+
+.tales {
+  width: 100%;
+  float: center'
+}
+.carousel-inner{
+  width:50%%;
+  max-height: 500px !important;
+
+	h1
+	{
+		font-family: 'Parisienne', cursive;
+		font-weight: bold;
+		color: black
+	}
+		
+	p
+	{ 
+		font-family: times new roman;
+	}
+
+	.personal-info
+	{ 
+		font-family: 'Slabo 27px', serif;
+		font-weight: bold;
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 5%;
+		margin-right:5%;
+	
+	}
+
+	.hobbies
+	{
+		font-style: italic;
+		font-weight: bold;
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 5%;
+		margin-right: 5%
+	}
+		
+	img.align-center
+	{
+		display: block;
+		float: center;
+		margin: 0px auto;
+		margin-top: 3%;
+	}
+
+	img.site-pic
+	{
+		height: auto;
+		width: 250px
+	}
+	.map 
+	{
+		display: none;
+	}
+ 
+	 #form-main
+	{
+		width:100%;
+		float:left;
+		padding-top:0px;
+	}
+	
+	#form-div 
+	{
+		background-color:e4d2ba;
+		padding-left:15px;
+		padding-right:15px;
+		padding-top:15px;
+		padding-bottom:30px;
+		width:300px;
+		float: left;
+		position: relative;
+		margin-top:20px;
+		margin-left: -200px;
+	}
+	
+	.contact-input 
+	{
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		padding: 10px 10px 10px 10px;
+		margin-bottom: 10px;
+		width:100%;
+		box-sizing: border-box;
+		border: 2px solid #000000;
+	}
+
+	textarea 
+	{
+		width: 100%;
+		height: 100px;
+		line-height: 150%;
+		resize:vertical;
+	}
+	
+	#button-send
+	{
+		width: 100%;
+		border: solid 2px;
+		cursor:auto;
+		background-color: #BCD2EE;
+		font-size:14px;
+		padding-top:12px;
+		padding-bottom:12px
+	}
+	
+	#button-send:hover
+	{
+	background-color: #A020F0
+	}
+	
+	.contact-input:focus
+	{
+	background-color: #e4d2ba                  ;
+	font-size: 18px;
+	}
+}
+
+
+/*Medium Devices, Desktops */	
+@media only screen and (min-width : 992px)
+
+
+
+{
+
+.tales {
+  width: 100%;
+  float: center'
+}
+.carousel-inner{
+  width:50%%;
+  max-height: 500px !important;
+
+	h1
+	{
+		font-family: 'Parisienne', cursive;
+		font-weight: bold;
+		color: black
+	}
+		
+	p
+	{ 
+		font-family: times new roman;
+	}
+
+	.personal-info
+	{ 
+		font-family: 'Slabo 27px', serif;
+		font-weight: bold;
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 5%;
+		margin-right:5%;
+	
+	}
+
+	.hobbies
+	{
+		font-style: italic;
+		font-weight: bold;
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 5%;
+		margin-right: 5%
+	}
+		
+	img.align-center
+	{
+		display: block;
+		float: center;
+		margin: 0px auto;
+		margin-top: 3%;
+	}
+
+	img.site-pic
+	{
+		height: auto;
+		width: 250px
+	}
+	.map 
+	{
+		display: none;
+	}
+	 
+	 #form-main
+	{
+		width:100%;
+		padding-top:0px;
+	}
+	
+	#form-div 
+	{
+		background-color:e4d2ba;
+		padding-left:15px;
+		padding-right:15px;
+		padding-top:15px;
+		padding-bottom:30px;
+		width:300px;
+		position: relative;
+		margin-top:20px;
+	}
+	
+	.contact-input 
+	{
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		padding: 10px 10px 10px 10px;
+		margin-bottom: 10px;
+		width:100%;
+		box-sizing: border-box;
+		border: 2px solid #000000;
+	}
+
+	textarea 
+	{
+		width: 100%;
+		height: 100px;
+		line-height: 150%;
+		resize:vertical;
+	}
+	
+	#button-send
+	{
+		width: 100%;
+		border: solid 2px;
+		cursor:auto;
+		background-color: #BCD2EE;
+		font-size:14px;
+		padding-top:12px;
+		padding-bottom:12px
+	}
+	
+	#button-send:hover
+	{
+	background-color: #A020F0
+	}
+	
+	.contact-input:focus
+	{
+	background-color: #e4d2ba                  ;
+	font-size: 18px;
+	}
+}
+
+/*Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+{
+
+.tales {
+  width: 100%;
+  float: center'
+}
+.carousel-inner{
+  width:50%%;
+  max-height: 500px !important;
+}
+	h1
+	{
+		font-family: 'Parisienne', cursive;
+		font-weight: bold;
+		color: black
+	}
+		
+	p
+	{ 
+		font-family: times new roman;
+	}
+
+	.personal-info
+	{ 
+		font-family: 'Slabo 27px', serif;
+		font-weight: bold;
+		font-size: 1.25em;
+		text-align: center;
+		margin-top: 2%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.hobbies
+	{
+		font-style: italic;
+		font-weight: bold;
+		font-size: 1.25em;
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 5%;
+		margin-right: 7%;
+	}
+		
+	img.align-center
+	{
+		display: block;
+		float: center;
+		margin: 0px auto;
+		margin-top: 3%;
+	}
+
+	img.site-pic
+	{
+		height: auto;
+		width: 250px
+	}
+	.map 
+	{
+		display: none;
+	}
+	
+	 #form-main
+	{
+		width:100%;
+		float:left;
+		padding-top:0px;
+	}
+	
+	#form-div 
+	{
+		background-color:e4d2ba;
+		padding-left:15px;
+		padding-right:15px;
+		padding-top:15px;
+		padding-bottom:30px;
+		width:300px;
+		float: left;
+		position: relative;
+		margin-top:20px;
+		margin-left: -200px;
+	}
+	
+	.contact-input 
+	{
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		padding: 10px 10px 10px 10px;
+		margin-bottom: 10px;
+		width:100%;
+		box-sizing: border-box;
+		border: 2px solid #000000;
+	}
+
+	textarea 
+	{
+		width: 100%;
+		height: 100px;
+		line-height: 150%;
+		resize:vertical;
+	}
+	
+	#button-send
+	{
+		width: 100%;
+		border: solid 2px;
+		cursor:auto;
+		background-color: #BCD2EE;
+		font-size:14px;
+		padding-top:12px;
+		padding-bottom:12px
+	}
+	
+	#button-send:hover
+	{
+	background-color: #A020F0
+	}
+	
+	.contact-input:focus
+	{
+	background-color: #e4d2ba                  ;
+	font-size: 18px;
+	}
+}	
+
+	
