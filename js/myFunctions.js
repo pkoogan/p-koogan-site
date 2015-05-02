@@ -14,3 +14,7 @@ function toggle(element){
     });
 
 	$('#navbar').scrollspy();
+	
+	$('.carousel(cycle)').carousel({
+  interval: 2000
+})

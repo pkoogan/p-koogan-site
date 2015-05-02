@@ -14,6 +14,18 @@
 		width: 100%;
 		height: 100%;
 		margin: 0;
+		
+	}
+	
+	.tales 
+	{
+		width: 100%;
+		float
+	}
+.carousel-inner
+	{
+	width:50%;
+	max-height: 500px !important;
 	}
 
 	.navbar-inverse
@@ -72,7 +84,17 @@
 
 /*Custom, Samsung Galaxy S4 */
 @media only screen and (min-width : 360px)
+
 {
+
+.tales {
+  width: 100%;
+  float: center'
+}
+.carousel-inner{
+  width:50%%;
+  max-height: 500px !important;
+)
 	h1
 	{
 		text-align: center;
@@ -192,7 +214,16 @@
 
 /* Extra Small Devices, phones */
 @media only screen and (min-width : 480px)
-{	
+{
+
+.tales {
+  width: 100%;
+  float: center'
+}
+.carousel-inner{
+  width:50%%;
+  max-height: 500px !important;
+)
 	h1
 	{
 		font-family: 'Parisienne', cursive;
@@ -312,6 +343,15 @@
 /*Small Devices, Tablets */	 	
 @media only screen and (min-width : 768px)
 {
+
+.tales {
+  width: 100%;
+  float: center'
+}
+.carousel-inner{
+  width:50%%;
+  max-height: 500px !important;
+
 	h1
 	{
 		font-family: 'Parisienne', cursive;
@@ -435,6 +475,15 @@
 
 
 {
+
+.tales {
+  width: 100%;
+  float: center'
+}
+.carousel-inner{
+  width:50%%;
+  max-height: 500px !important;
+
 	h1
 	{
 		font-family: 'Parisienne', cursive;
@@ -551,6 +600,15 @@
 /*Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px)
 {
+
+.tales {
+  width: 100%;
+  float: center'
+}
+.carousel-inner{
+  width:50%%;
+  max-height: 500px !important;
+}
 	h1
 	{
 		font-family: 'Parisienne', cursive;
